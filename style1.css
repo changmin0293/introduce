@@ -1,0 +1,73 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pro-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%
+}
+.figma-img {
+    width: 600px;
+    height: 400px;
+}
+h1 {
+    font-size: 32px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+}
+h2 {
+      border-top: 2px solid #ffffff;
+      padding-top: 20px;
+}
+li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.ai-img {
+    width: 600px;
+    height: 400px;
+}
+.high { 
+    font-size: 18px;
+}
+figure {
+    text-align: center;
+}
+figcaption {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
+  color: #667aff;
+}
+footer {
+    border-top: 2px solid #ffffff;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-git {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.git-img {
+     width: 40px;
+     height: 40px;
+  border-radius: 50%;
+}
+.thanks {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}

@@ -6,6 +6,35 @@ body {
     padding: 40px 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 20px;
+}
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+}
+
+nav a:hover {
+  background-color: #ffffff;
+  color: #121212;
+}
 .pro-img {
     width: 200px;
     height: 200px;
